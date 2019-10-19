@@ -1,0 +1,14 @@
+Adapter for using a Tandberg TDV-2215 keyboard with anything that takes RS-232.
+
+The main part here is the UARTs.
+
+	Two UARTs go to the Tandberg-keyboard
+	One UART to the RS-232 port (9600 baud)
+	One UART tx to a local display
+
+For pinout on the keyboard port, consult the Tandberg TDV2215 technical reference manuals (available from http://sintran.com/sintran/library/libother/libother.html).
+For pinout on the IBM PC/XT or PC/AT keyboard ports, consult the internet.
+For pinout on the RS-232 standard, also consult the internet.
+
+ATTENTION:
+Possible bug on the PCB. Rx and Tx might be swapped on the UART going to the local display. Tx should be connected, not Rx. As I only needed one adapter, I might have settled on patching this directly on the board without fixing it in the PCB files.

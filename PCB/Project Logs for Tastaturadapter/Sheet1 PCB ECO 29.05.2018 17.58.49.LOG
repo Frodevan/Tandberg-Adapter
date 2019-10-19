@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetJ6_3 Pin=U1-63
+Added Pin To Net: NetName=NetJ6_3 Pin=U1-64
+Added Member To Class: ClassName=Sheet1 Member=Component J7 Header 1x2
+Added Room: Name=Sheet1
